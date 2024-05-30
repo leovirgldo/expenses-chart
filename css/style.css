@@ -16,7 +16,7 @@ body {
   background-color: var(--Cream);
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
-  padding: 0 8px;
+  padding: 0 1.2rem;
 }
 main {
   max-width: 350px;
@@ -220,4 +220,14 @@ div.total .last-month p:last-child {
     left: 50%;
     transform: translateX(-50%);
   }
+}
+@media screen and (min-width: 768px) {
+    main {
+        width: 450px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
 }

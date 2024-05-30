@@ -254,4 +254,7 @@ div.total .last-month p:last-child {
         margin-top: 16px;
         padding: 25px;
       }
+      section.container h1 {
+        font-size: 1.65rem;
+      }
 }
